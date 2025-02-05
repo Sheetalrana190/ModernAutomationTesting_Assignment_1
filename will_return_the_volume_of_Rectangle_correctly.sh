@@ -7,6 +7,8 @@ l=3
 
 Volume=$(./Rectangle_volume_calculator.sh $h $w $l)
 
+echo $Volume
+
 if [[ $Volume -eq 6 ]];
 then
 	echo "Success"
