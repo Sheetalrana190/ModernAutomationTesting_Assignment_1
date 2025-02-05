@@ -9,7 +9,7 @@ Volume=$(./Rectangle_volume_calculator.sh $h $w $l)
 
 echo $Volume
 
-if [[ $Volume -eq 6 ]];
+if [[ $Volume -eq 4 ]];
 then
 	echo "Success"
 else 
