@@ -2,3 +2,7 @@
 H=$1
 W=$2
 L=$3
+
+Volume=$((H * W * L))
+ echo $Volume
+
